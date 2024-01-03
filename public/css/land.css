@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 17px;
+}
+
+#myVideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -999;
+}
+div {
+  font-size: 21px;
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  margin-top: 200px;
+}
+h1 {
+  font-size: 80px;
+}
+h1:hover {
+  font-size: 85px;
+  color: transparent;
+  text-decoration: solid white 2px;
+  -webkit-text-stroke: 2px white;
+}
