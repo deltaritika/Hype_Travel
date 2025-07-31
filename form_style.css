@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url("../images/nick-perez-1ii2fEvAuAw-unsplash.jpg"),
+    linear-gradient(rgb(219, 166, 166), rgb(0, 0, 172));
+
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.box h1 {
+  color: #edf2f4;
+}
+.box {
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  max-width: 600px;
+  padding: 20px;
+  margin: 0 auto;
+  margin-top: 39px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.title_small {
+  color: #edf2f4;
+  font-size: medium;
+  font-style: oblique;
+}
+
+.form_container {
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+.form_control {
+  display: flex;
+  flex-direction: column;
+}
+label {
+  color: #03045e;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+textarea,
+select,
+input {
+  font-size: 15px;
+  border: 2px solid #2b2d42;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+button {
+  margin-top: 20px;
+  border: 3px solid transparent;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bolder;
+  transition: 0.2s ease-in-out;
+  background-color: #ef233c;
+  color: #edf2f4;
+}
+button:hover {
+  background-color: #edf2f4;
+  border: #2b2d42 solid 2px;
+  color: #d90429;
+  transition: 0.2s ease-in-out;
+}
+button:active {
+  background-color: black;
+}
+.button_container1 {
+  display: flex;
+  justify-content: center;
+}
+
+input:focus {
+  outline-color: #d90429;
+}
+textarea:focus {
+  outline-color: #d90429;
+}
+button:hover {
+  box-shadow: black 4px 5px 6px;
+  font-size: large-;
+}
+#btn2 {
+  margin-left: 60px;
+}
+.form_control span {
+  font-size: 14px;
+  color: #d90429;
+}
+#submit-error {
+  color: #d90429;
+}
+.form_control span ion-icon {
+  color: turquoise;
+}
